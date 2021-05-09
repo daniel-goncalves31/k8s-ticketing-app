@@ -3,7 +3,7 @@ import express from 'express'
 import 'express-async-errors'
 import mongoose from 'mongoose'
 import { NotFoundError } from './errors'
-import { errorHandler } from './middlewares/error-handler'
+import { errorHandler } from './middlewares'
 import {
   currentUserRouter,
   signInUserRouter,
