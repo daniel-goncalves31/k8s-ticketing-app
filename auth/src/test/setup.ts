@@ -3,6 +3,8 @@ import mongoose from 'mongoose'
 
 let mongo: MongoMemoryServer | undefined
 beforeAll(async () => {
+  process.env.JWT_KEY = 'somerandomjwtkeyfortestpurpose'
+
   mongo = new MongoMemoryServer()
   const mongoUri = await mongo.getUri()
 
