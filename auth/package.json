@@ -4,7 +4,8 @@
   "description": "The auth microservice of the ticketing-app",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts"
+    "dev": "ts-node-dev src/index.ts",
+    "test": "jest --watchAll --no-cache"
   },
   "keywords": [
     "auth",
