@@ -13,6 +13,7 @@
   "author": "Daniel Gonçalves",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.1",
     "next": "^10.2.0",
     "react": "^17.0.2",
